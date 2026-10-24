@@ -1,0 +1,16 @@
+# Same Allocation/Max as bank1, but unsafe Available vector.
+Available: 0 1 0
+
+Allocation:
+P1 2 0 0
+P3 2 1 1
+P4 0 0 2
+P2 3 0 2
+P0 0 1 0
+
+Max:
+P1 3 2 2
+P3 2 2 2
+P4 4 3 3
+P2 9 0 2
+P0 7 5 3
