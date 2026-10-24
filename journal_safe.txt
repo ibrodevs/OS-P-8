@@ -1,0 +1,5 @@
+acquire P0 R0
+wait P1 R0
+release P0 R0
+acquire P1 R0
+release P1 R0
