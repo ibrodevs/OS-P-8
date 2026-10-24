@@ -1,0 +1,5 @@
+# P0 owns R0, P1 owns R1, then both wait for the other resource.
+acquire P0 R0
+acquire P1 R1
+wait P0 R1
+wait P1 R0
